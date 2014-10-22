@@ -347,7 +347,12 @@ abstract_trunks.place_trunk = function(pos)
 end
 
 plantslib:register_generate_plant({
-    surface = {"default:dirt_with_grass"},
+    surface = {
+    	"default:dirt_with_grass",
+	"paragenv7:grass",
+        "paragenv7:goldengrass",
+        "paragenv7:drygrass",
+    },
     max_count = Trunks_Max_Count, -- 320,
     rarity = Trunks_Rarity, -- 99,
     min_elevation = 1,
@@ -380,7 +385,12 @@ abstract_trunks.grow_moss_on_ground = function(pos)
 end
 
 plantslib:register_generate_plant({
-    surface = {"default:dirt_with_grass"},
+    surface = {
+    	"default:dirt_with_grass",
+	"paragenv7:grass",
+        "paragenv7:goldengrass",
+        "paragenv7:drygrass",
+    },
     max_count = Moss_on_ground_Max_Count,
     rarity = Moss_on_ground_Rarity,
     min_elevation = 1,
