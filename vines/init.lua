@@ -305,7 +305,6 @@ plantslib:spawn_on_surfaces({
   	"paragenv7:grass",
         "paragenv7:goldengrass",
         "paragenv7:drygrass",
-        "paragenv7:dirt"
   },
   spawn_on_bottom = true,
   plantlife_limit = -0.9,
