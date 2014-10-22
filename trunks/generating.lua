@@ -164,7 +164,7 @@ end
 if Twigs_on_ground == true then
 plantslib:register_generate_plant({
     surface = {
-    	"default:dirt_with_grass"
+    	"default:dirt_with_grass",
     	"paragenv7:grass",
         "paragenv7:goldengrass",
         "paragenv7:drygrass",
