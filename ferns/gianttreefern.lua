@@ -283,7 +283,11 @@ if abstract_ferns.config.enable_giant_treeferns_in_jungle == true then
 		surface = {
 			"default:dirt_with_grass",
 			"default:sand",
-			"default:desert_sand"--,
+			"default:desert_sand",
+			"paragenv7:grass",
+                	"paragenv7:goldengrass",
+                	"paragenv7:drygrass",
+                	--,
 			--"dryplants:grass_short"
 		},
 		max_count = 12,--27,
