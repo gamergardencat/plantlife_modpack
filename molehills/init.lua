@@ -93,7 +93,9 @@ abstract_molehills.place_molehill = function(pos)
 end
 
 plantslib:register_generate_plant({
-    surface = {"default:dirt_with_grass"},
+    surface = {
+    	"default:dirt_with_grass",
+    },
     max_count = Molehills_Max_Count,
     rarity = Molehills_Rarity,
     min_elevation = 1,
