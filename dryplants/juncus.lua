@@ -91,7 +91,10 @@ plantslib:register_generate_plant({
 		--"default:sand",
 		"stoneage:grass_with_silex",
 		"sumpf:peat",
-		"sumpf:sumpf"
+		"sumpf:sumpf",
+		"paragenv7:grass",
+                "paragenv7:goldengrass",
+                "paragenv7:drygrass",
 	},
     max_count = JUNCUS_NEAR_WATER_PER_MAPBLOCK,
     rarity = 101 - JUNCUS_NEAR_WATER_RARITY,
@@ -117,7 +120,12 @@ plantslib:register_generate_plant({
     max_count = JUNCUS_AT_BEACH_PER_MAPBLOCK,
     rarity = 101 - JUNCUS_AT_BEACH_RARITY,
     min_elevation = 1, -- above sea level
-	near_nodes = {"default:dirt_with_grass"},
+	near_nodes = {
+		"default:dirt_with_grass",
+		"paragenv7:grass",
+                "paragenv7:goldengrass",
+                "paragenv7:drygrass",
+	},
 	near_nodes_size = 2,
 	near_nodes_vertical = 1,
 	near_nodes_count = 1,
