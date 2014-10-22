@@ -81,7 +81,13 @@ plantslib:spawn_on_surfaces({
 	spawn_plants = {"poisonivy:seedling"},
 	avoid_radius = 10,
 	spawn_chance = SPAWN_CHANCE/10,
-	spawn_surfaces = {"default:dirt_with_grass"},
+	spawn_surfaces = {
+		"default:dirt_with_grass",
+	        "paragenv7:grass",
+                "paragenv7:goldengrass",
+                "paragenv7:drygrass",
+                "paragenv7:dirt"
+	},
 	avoid_nodes = {"group:poisonivy", "group:flower", "group:flora"},
 	seed_diff = poisonivy_seed_diff,
 	light_min = 7,
