@@ -95,6 +95,10 @@ end
 plantslib:register_generate_plant({
     surface = {
     	"default:dirt_with_grass",
+    	"paragenv7:grass",
+        "paragenv7:goldengrass",
+        "paragenv7:drygrass",
+        "paragenv7:dirt"
     },
     max_count = Molehills_Max_Count,
     rarity = Molehills_Rarity,
