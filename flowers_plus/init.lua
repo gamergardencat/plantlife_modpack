@@ -322,7 +322,13 @@ plantslib:register_generate_plant({
     rarity = lilies_rarity,
     min_elevation = 1,
 	max_elevation = 40,
-	near_nodes = {"default:dirt_with_grass"},
+	near_nodes = {
+		"default:dirt_with_grass",
+		"paragenv7:grass",
+                "paragenv7:goldengrass",
+                "paragenv7:drygrass",
+                "paragenv7:dirt"
+        },
 	near_nodes_size = 4,
 	near_nodes_vertical = 1,
 	near_nodes_count = 1,
@@ -344,7 +350,13 @@ plantslib:register_generate_plant({
     rarity = seaweed_rarity,
     min_elevation = 1,
 	max_elevation = 40,
-	near_nodes = {"default:dirt_with_grass"},
+	near_nodes = {
+		"default:dirt_with_grass",
+		"paragenv7:grass",
+                "paragenv7:goldengrass",
+                "paragenv7:drygrass",
+                "paragenv7:dirt"
+	},
 	near_nodes_size = 4,
 	near_nodes_vertical = 1,
 	near_nodes_count = 1,
@@ -420,7 +432,13 @@ plantslib:spawn_on_surfaces({
 	seed_diff = flowers_seed_diff,
 	light_min = 4,
 	light_max = 10,
-	neighbors = {"default:dirt_with_grass"},
+	neighbors = {
+		"default:dirt_with_grass",
+		"paragenv7:grass",
+                "paragenv7:goldengrass",
+                "paragenv7:drygrass",
+                "paragenv7:dirt"
+        },
 	facedir = 1
 })
 
@@ -428,7 +446,13 @@ plantslib:spawn_on_surfaces({
 	spawn_delay = SPAWN_DELAY*2,
 	spawn_plants = {"flowers:seaweed"},
 	spawn_chance = SPAWN_CHANCE*2,
-	spawn_surfaces = {"default:dirt_with_grass"},
+	spawn_surfaces = {
+		"default:dirt_with_grass",
+		"paragenv7:grass",
+                "paragenv7:goldengrass",
+                "paragenv7:drygrass",
+                "paragenv7:dirt"
+	},
 	avoid_nodes = {"group:flower", "group:flora" },
 	seed_diff = flowers_seed_diff,
 	light_min = 4,
