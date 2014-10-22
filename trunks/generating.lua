@@ -168,7 +168,6 @@ plantslib:register_generate_plant({
     	"paragenv7:grass",
         "paragenv7:goldengrass",
         "paragenv7:drygrass",
-        "paragenv7:dirt"
     },
     max_count = Twigs_on_ground_Max_Count,
     rarity = Twigs_on_ground_Rarity,
