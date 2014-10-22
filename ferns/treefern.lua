@@ -166,7 +166,6 @@ if abstract_ferns.config.enable_treeferns_in_jungle == true then
 			"paragenv7:grass",
                 	"paragenv7:goldengrass",
                 	"paragenv7:drygrass",
-                	"paragenv7:dirt"
 		},
 		max_count = 35,--27,
 		avoid_nodes = {"default:tree"},
