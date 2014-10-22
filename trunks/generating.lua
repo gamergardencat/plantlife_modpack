@@ -163,7 +163,13 @@ end
 
 if Twigs_on_ground == true then
 plantslib:register_generate_plant({
-    surface = {"default:dirt_with_grass"},
+    surface = {
+    	"default:dirt_with_grass"
+    	"paragenv7:grass",
+        "paragenv7:goldengrass",
+        "paragenv7:drygrass",
+        "paragenv7:dirt"
+    },
     max_count = Twigs_on_ground_Max_Count,
     rarity = Twigs_on_ground_Rarity,
     min_elevation = 1,
