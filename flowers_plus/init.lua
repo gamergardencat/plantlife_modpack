@@ -327,7 +327,6 @@ plantslib:register_generate_plant({
 		"paragenv7:grass",
                 "paragenv7:goldengrass",
                 "paragenv7:drygrass",
-                "paragenv7:dirt"
         },
 	near_nodes_size = 4,
 	near_nodes_vertical = 1,
@@ -355,7 +354,6 @@ plantslib:register_generate_plant({
 		"paragenv7:grass",
                 "paragenv7:goldengrass",
                 "paragenv7:drygrass",
-                "paragenv7:dirt"
 	},
 	near_nodes_size = 4,
 	near_nodes_vertical = 1,
@@ -437,7 +435,6 @@ plantslib:spawn_on_surfaces({
 		"paragenv7:grass",
                 "paragenv7:goldengrass",
                 "paragenv7:drygrass",
-                "paragenv7:dirt"
         },
 	facedir = 1
 })
@@ -451,7 +448,6 @@ plantslib:spawn_on_surfaces({
 		"paragenv7:grass",
                 "paragenv7:goldengrass",
                 "paragenv7:drygrass",
-                "paragenv7:dirt"
 	},
 	avoid_nodes = {"group:flower", "group:flora" },
 	seed_diff = flowers_seed_diff,
