@@ -85,7 +85,10 @@ if abstract_ferns.config.enable_horsetails_spawning == true then
 			"dryplants:grass_short",
 			"stoneage:grass_with_silex",
 			"default:mossycobble",
-			"default:gravel"
+			"default:gravel",
+			"paragenv7:grass",
+                	"paragenv7:goldengrass",
+                	"paragenv7:drygrass",
 		},
 		seed_diff = 329,
 		min_elevation = 1, -- above sea level
@@ -105,7 +108,10 @@ if abstract_ferns.config.enable_horsetails_on_grass == true then
 	plantslib:register_generate_plant({
 		surface = {
 			"default:dirt_with_grass",
-			"sumpf:sumpf"
+			"sumpf:sumpf",
+			"paragenv7:grass",
+                	"paragenv7:goldengrass",
+                	"paragenv7:drygrass",
 		},
 		max_count = 35,
 		rarity = 40,
@@ -125,8 +131,8 @@ if abstract_ferns.config.enable_horsetails_on_grass == true then
 		near_nodes_count = 1,
 		plantlife_limit = -0.9,
 		humidity_min = 0.4,
-		temp_max = -0.5, -- 55 캜
-		temp_min = 0.53, -- 0 캜, dies back in winter
+		temp_max = -0.5, -- 55 째C
+		temp_min = 0.53, -- 0 째C, dies back in winter
 		--random_facedir = { 0, 179 },
 	},
 	node_names
@@ -147,8 +153,8 @@ if abstract_ferns.config.enable_horsetails_on_stones == true then
 		min_elevation = 1, -- above sea level
 		plantlife_limit = -0.9,
 		humidity_min = 0.4,
-		temp_max = -0.5, -- 55 캜
-		temp_min = 0.53, -- 0 캜, dies back in winter
+		temp_max = -0.5, -- 55 째C
+		temp_min = 0.53, -- 0 째C, dies back in winter
 		--random_facedir = { 0, 179 },
 	},
 	node_names
