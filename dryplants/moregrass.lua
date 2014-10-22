@@ -22,7 +22,10 @@ plantslib:register_generate_plant({
 		"default:dirt_with_grass",
 		"stoneage:grass_with_silex",
 		"sumpf:peat",
-		"sumpf:sumpf"
+		"sumpf:sumpf",
+		"paragenv7:grass",
+                "paragenv7:goldengrass",
+                "paragenv7:drygrass",
 	},
     max_count = TALL_GRASS_PER_MAPBLOCK,
     rarity = 101 - TALL_GRASS_RARITY,
