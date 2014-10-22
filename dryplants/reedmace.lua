@@ -351,7 +351,10 @@ plantslib:register_generate_plant({
 		"default:desert_sand",
 		"stoneage:grass_with_silex",
 		"sumpf:peat",
-		"sumpf:sumpf"
+		"sumpf:sumpf",
+		"paragenv7:grass",
+                "paragenv7:goldengrass",
+                "paragenv7:drygrass",
 	},
     max_count = REEDMACE_NEAR_WATER_PER_MAPBLOCK,
     rarity = 101 - REEDMACE_NEAR_WATER_RARITY,
@@ -374,7 +377,11 @@ plantslib:register_generate_plant({
 		--"stoneage:grass_with_silex",
 		"stoneage:sand_with_silex",
 		"sumpf:peat",
-		"sumpf:sumpf"
+		"sumpf:sumpf",
+		"paragenv7:grass",
+                "paragenv7:goldengrass",
+                "paragenv7:drygrass",
+                "paragenv7:dirt"
 	},
     max_count = REEDMACE_IN_WATER_PER_MAPBLOCK,
 	rarity = 101 - REEDMACE_IN_WATER_RARITY,
