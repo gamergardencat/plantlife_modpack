@@ -72,7 +72,7 @@ create_nodes()
 
 if abstract_ferns.config.lady_ferns_near_tree == true then
 	plantslib:register_generate_plant({ -- near trees (woodlands)
-		surface = {
+		surface = {"paragenv7:grass","paragenv7:drygrass",
 			"default:dirt_with_grass",
 			"default:mossycobble",
 			"default:desert_sand",
@@ -101,7 +101,7 @@ end
 
 if abstract_ferns.config.lady_ferns_near_rock == true then
 	plantslib:register_generate_plant({ -- near stone (mountains)
-		surface = {
+		surface = {"paragenv7:grass","paragenv7:drygrass",
 			"default:dirt_with_grass",
 			"default:mossycobble",
 			"group:falling_node",
@@ -128,7 +128,7 @@ end
 
 if abstract_ferns.config.lady_ferns_near_ores == true then -- this one causes a huge fps drop
 	plantslib:register_generate_plant({ -- near ores (potential mining sites)
-		surface = {
+		surface = {"paragenv7:grass","paragenv7:drygrass",
 			"default:dirt_with_grass",
 			"default:mossycobble",
 			"default:stone_with_coal",
@@ -166,7 +166,7 @@ end
 
 if abstract_ferns.config.lady_ferns_in_groups == true then -- this one is meant as a replacement of Ferns_near_Ores
 	plantslib:register_generate_plant({
-		surface = {
+		surface = {"paragenv7:grass","paragenv7:drygrass",
 			"default:dirt_with_grass",
 			"default:mossycobble",
 			"default:stone_with_coal",

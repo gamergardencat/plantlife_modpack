@@ -346,15 +346,12 @@ minetest.register_entity("dryplants:reedmace_water_entity",{
 -----------------------------------------------------------------------------------------------
 -- near water or swamp
 plantslib:register_generate_plant({
-    surface = {
+    surface = {"paragenv7:grass","paragenv7:drygrass",
 		"default:dirt_with_grass", 
 		"default:desert_sand",
 		"stoneage:grass_with_silex",
 		"sumpf:peat",
-		"sumpf:sumpf",
-		"paragenv7:grass",
-                "paragenv7:goldengrass",
-                "paragenv7:drygrass",
+		"sumpf:sumpf"
 	},
     max_count = REEDMACE_NEAR_WATER_PER_MAPBLOCK,
     rarity = 101 - REEDMACE_NEAR_WATER_RARITY,
@@ -370,18 +367,14 @@ plantslib:register_generate_plant({
 )
 -- in water
 plantslib:register_generate_plant({
-    surface = {
+    surface = {"paragenv7:grass","paragenv7:drygrass",
 		"default:dirt",
 		"default:dirt_with_grass", 
 		--"default:desert_sand",
 		--"stoneage:grass_with_silex",
 		"stoneage:sand_with_silex",
 		"sumpf:peat",
-		"sumpf:sumpf",
-		"paragenv7:grass",
-                "paragenv7:goldengrass",
-                "paragenv7:drygrass",
-                "paragenv7:dirt"
+		"sumpf:sumpf"
 	},
     max_count = REEDMACE_IN_WATER_PER_MAPBLOCK,
 	rarity = 101 - REEDMACE_IN_WATER_RARITY,

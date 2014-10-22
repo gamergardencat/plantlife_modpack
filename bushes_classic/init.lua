@@ -41,16 +41,13 @@ plantslib:spawn_on_surfaces({
 	spawn_plants = bushes_classic.spawn_list,
 	avoid_radius = 10,
 	spawn_chance = 100,
-	spawn_surfaces = {
+	spawn_surfaces = {"paragenv7:grass","paragenv7:drygrass",
 		"default:dirt_with_grass",
 		"woodsoils:dirt_with_leaves_1",
 		"woodsoils:grass_with_leaves_1",
 		"woodsoils:grass_with_leaves_2",
 		"farming:soil",
-		"farming:soil_wet",
-		"paragenv7:grass",
-                "paragenv7:goldengrass",
-                "paragenv7:drygrass",
+		"farming:soil_wet"
 	},
 	avoid_nodes = {"group:bush"},
 	seed_diff = 545342534, -- chosen by a fair mashing of the keyboard - guaranteed to be random :P

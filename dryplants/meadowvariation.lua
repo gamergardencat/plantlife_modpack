@@ -14,11 +14,8 @@ abstract_dryplants.grow_grass_variation = function(pos)
 end
 
 plantslib:register_generate_plant({
-    surface = {
+    surface = {"paragenv7:grass","paragenv7:drygrass",
 		"default:dirt_with_grass",
-		"paragenv7:grass",
-                "paragenv7:goldengrass",
-                "paragenv7:drygrass",
 	},
     max_count = 4800,
     rarity = 25,

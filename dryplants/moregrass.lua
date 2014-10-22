@@ -18,14 +18,11 @@ abstract_dryplants.grow_grass = function(pos)
 end
 
 plantslib:register_generate_plant({
-    surface = {
+    surface = {"paragenv7:grass","paragenv7:drygrass",
 		"default:dirt_with_grass",
 		"stoneage:grass_with_silex",
 		"sumpf:peat",
-		"sumpf:sumpf",
-		"paragenv7:grass",
-                "paragenv7:goldengrass",
-                "paragenv7:drygrass",
+		"sumpf:sumpf"
 	},
     max_count = TALL_GRASS_PER_MAPBLOCK,
     rarity = 101 - TALL_GRASS_RARITY,

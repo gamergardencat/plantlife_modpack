@@ -81,12 +81,8 @@ plantslib:spawn_on_surfaces({
 	spawn_plants = {"poisonivy:seedling"},
 	avoid_radius = 10,
 	spawn_chance = SPAWN_CHANCE/10,
-	spawn_surfaces = {
-		"default:dirt_with_grass",
-	        "paragenv7:grass",
-                "paragenv7:goldengrass",
-                "paragenv7:drygrass",
-	},
+	spawn_surfaces = {"paragenv7:grass","paragenv7:drygrass",
+  "default:dirt_with_grass"},
 	avoid_nodes = {"group:poisonivy", "group:flower", "group:flora"},
 	seed_diff = poisonivy_seed_diff,
 	light_min = 7,
@@ -99,12 +95,7 @@ plantslib:grow_plants({
 	grow_chance = GROW_CHANCE,
 	grow_plant = "poisonivy:seedling",
 	grow_result = "poisonivy:sproutling",
-	grow_nodes = {
-		"default:dirt_with_grass",
-		"paragenv7:grass",
-                "paragenv7:goldengrass",
-                "paragenv7:drygrass",
-        }
+	grow_nodes = {"default:dirt_with_grass"}
 })
 
 plantslib:grow_plants({
@@ -114,12 +105,7 @@ plantslib:grow_plants({
 	need_wall = true,
 	grow_vertically = true,
 	verticals_list = walls_list,
-	ground_nodes = {
-		"default:dirt_with_grass",
-		"paragenv7:grass",
-                "paragenv7:goldengrass",
-                "paragenv7:drygrass",
-	}
+	ground_nodes = {"default:dirt_with_grass"}
 })
 
 print(S("[Poison Ivy] Loaded."))

@@ -163,12 +163,8 @@ end
 
 if Twigs_on_ground == true then
 plantslib:register_generate_plant({
-    surface = {
-    	"default:dirt_with_grass",
-    	"paragenv7:grass",
-        "paragenv7:goldengrass",
-        "paragenv7:drygrass",
-    },
+    surface = {"paragenv7:grass","paragenv7:drygrass",
+    "default:dirt_with_grass"},
     max_count = Twigs_on_ground_Max_Count,
     rarity = Twigs_on_ground_Rarity,
     min_elevation = 1,
@@ -347,12 +343,8 @@ abstract_trunks.place_trunk = function(pos)
 end
 
 plantslib:register_generate_plant({
-    surface = {
-    	"default:dirt_with_grass",
-	"paragenv7:grass",
-        "paragenv7:goldengrass",
-        "paragenv7:drygrass",
-    },
+    surface = {"paragenv7:grass","paragenv7:drygrass",
+    "default:dirt_with_grass"},
     max_count = Trunks_Max_Count, -- 320,
     rarity = Trunks_Rarity, -- 99,
     min_elevation = 1,
@@ -385,12 +377,8 @@ abstract_trunks.grow_moss_on_ground = function(pos)
 end
 
 plantslib:register_generate_plant({
-    surface = {
-    	"default:dirt_with_grass",
-	"paragenv7:grass",
-        "paragenv7:goldengrass",
-        "paragenv7:drygrass",
-    },
+    surface = {"paragenv7:grass","paragenv7:drygrass",
+    "default:dirt_with_grass"},
     max_count = Moss_on_ground_Max_Count,
     rarity = Moss_on_ground_Rarity,
     min_elevation = 1,
@@ -556,7 +544,7 @@ plantslib:register_generate_plant({
     rarity = 1,
     min_elevation = 1,
 	max_elevation = 40,
-	near_nodes = {"default:dirt_with_grass"},
+	near_nodes = {"paragenv7:grass","default:dirt_with_grass"},
 	near_nodes_size = 1,
 	near_nodes_vertical = 1,
 	near_nodes_count = 1,
