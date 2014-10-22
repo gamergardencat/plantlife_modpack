@@ -16,6 +16,9 @@ end
 plantslib:register_generate_plant({
     surface = {
 		"default:dirt_with_grass",
+		"paragenv7:grass",
+                "paragenv7:goldengrass",
+                "paragenv7:drygrass",
 	},
     max_count = 4800,
     rarity = 25,
