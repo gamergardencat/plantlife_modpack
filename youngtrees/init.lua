@@ -135,7 +135,12 @@ plantslib:register_generate_plant({
 		"default:dirt_with_grass", 
 		"stoneage:grass_with_silex",
 		"sumpf:peat",
-		"sumpf:sumpf"
+		"sumpf:sumpf",
+                "paragenv7:grass",
+                "paragenv7:goldengrass",
+                "paragenv7:drygrass",
+                "paragenv7:dirt"
+                
 	},
     max_count = 55,  --10,15
     rarity = 101 - 4,  --3,4
